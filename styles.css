@@ -6,13 +6,26 @@ body {
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    margin: 150px;
-    /* align-items: center; */
-
+    height: 60vh;
+    position: relative;
+    top: 150px;
+} 
+.main{
+    background: whitesmoke;
+    border-radius: 8px;
+    margin: auto;
+    border: solid 3px black;
+    width: 60%;
+    height: 40vh;
+    background-attachment: fixed;
 }
 
+#header{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
 
 h1 {
     margin-top: 10px;
@@ -44,4 +57,6 @@ button {
 
 #save-btn {
     background: darkgreen;
+    border-radius: 20px;
+    border: solid 2px whitesmoke;
 }
