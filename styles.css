@@ -8,6 +8,7 @@ body {
     background-attachment: fixed;
     position: relative;
     top: 150px;
+    bottom: 150px;
 } 
 .main{
     background: whitesmoke;
