@@ -6,7 +6,6 @@ body {
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 60vh;
     position: relative;
     top: 150px;
 } 
@@ -16,12 +15,12 @@ body {
     margin: auto;
     border: solid 3px black;
     width: 60%;
-    height: 40vh;
     background-attachment: fixed;
+    padding: 20px;
 }
 
 #header{
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
